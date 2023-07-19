@@ -33,4 +33,4 @@ function sorting(params) {
         break;
   }
 }
-sorting('desc');
+sorting('asc');
