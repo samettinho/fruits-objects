@@ -20,12 +20,12 @@ const fruit=["banana","banana","apple","fig","banana",
 function sorting(params) {
   switch (params) {
       case 'asc':
-				console.log("--Küçükten büyüğe sıralama--");
+				console.log("--Küçükten büyüğe siralama--");
         array.sort((a,b) =>a[Object.keys(a)].count-b[Object.keys(b)].count);
         console.log(array);
 	    	break;
       case 'desc':
-				console.log("--Büyükten küçüğe sıralama--");
+				console.log("--Büyükten küçüğe siralama--");
         array.sort((a,b) =>b[Object.keys(b)].count-a[Object.keys(a)].count);
         console.log(array);
         break;
